@@ -3,7 +3,7 @@
 ----------
 
 ### *tel:* +79680728534
-### *email:* <stars_inc@maol.ru>
+### *email:* <stars_inc@mail.ru>
 
 
 

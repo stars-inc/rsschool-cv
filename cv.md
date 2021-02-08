@@ -18,3 +18,23 @@
 >> step by step addiction to JavaScript ahead
 
 ----------
+### Skills
+
+- HTML
+- CSS
+- JS es5 es6+
+- Git
+- Type Script
+- React
+
+### Examples 
+
+```js
+    const user = {
+        name: 'Alex',
+        age: 32,
+        links: {
+            ['github.com/stars-inc', 'vk.com/sounrow', 'instagram.com/elitemorning/']
+        }
+    }
+```

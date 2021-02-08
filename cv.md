@@ -38,3 +38,16 @@
         }
     }
 ```
+### Work Expirence 
+*none*
+
+### Higher education 
+
+Millitary-Technical University of Moscow of construct special building 2010 / Low / Lower
+
+### Professional development, courses
+2020 FEWD teamtreehouse.com full english community
+
+### Language skills 
+
+- English (A2)

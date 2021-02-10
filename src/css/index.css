@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  color: #4db6ac;
+}
+
+section {
+  position: relative;
+  margin: 1.5em 0 1.5em 0;
+}
+
+@font-face {
+  font-family: OpenSans, sans-serif;
+  src: url("../../fonts/OpenSans-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: OpenSans, sans-serif;
+  src: url("../../fonts/OpenSans-Light.woff2") format("woff2");
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  background: #333;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 1em 0 1em;
+  margin: 0 auto;
+}
+
+.photo {
+  display: block;
+  width: 100%;
+}
+/*# sourceMappingURL=index.css.map */

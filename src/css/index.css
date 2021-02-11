@@ -57,6 +57,14 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 765px) {
+  .wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 3em 0 3em;
+  }
+}
+
 .header {
   padding: 1em 0 1em 0;
 }
@@ -212,6 +220,6 @@ code {
 .footer {
   padding: 1em;
   text-align: center;
-  background-color: black;
+  background: rgba(0, 0, 0, 0.3);
 }
 /*# sourceMappingURL=index.css.map */

@@ -18,14 +18,18 @@
         <h1 class="header-title">Alexandr Bessmertnov</h1>
       </div>
       <div class="contacts">
-        <div class="constacts-header">
-          <h2>Contacts</h2>
+        <div class="contacts-header">
+          <h2 class="contacts-title">Contacts</h2>
         </div>
-        <div class="phone link">
-          <span>tel:<a href="tel:+79680728534">89680728534</a></span>
-        </div>
-        <div class="email link">
-          <span>email:<a href="mailto:stars_inc@mail.ru?subject=future is comming">stars_inc@mail.ru</a></span>
+        <div class="contacts-wrapper">
+          <div class="labels">
+            <span class="label">tel:</span>
+            <span class="label">email:</span>
+          </div>
+          <div class="links">
+            <a class="link" href="tel:+79680728534">89680728534</a>
+            <a class="link" href="mailto:stars_inc@mail.ru?subject=future-is-comming">stars_inc@mail.ru</a>
+          </div>
         </div>
       </div>
     </header>
@@ -39,8 +43,9 @@
             <img class="photo" src="./src/img/im.jpg" alt="my-photo">
           </div>
           <article class="about-description">
+            <h2>Little story</h2>
             <p class="about-text">
-              Hey there! I’m newbee in web Development who’s learning to code every blessing day, in a mean time i working in sales departament, working about 7 years, my wisshes are building carrier in IT, because i like development, God it’s Awesome…
+              Hey there! I’m newbee in web Development who’s learning to code every blessing day, in a mean time i working in sales departament, working about 7 years, my wishes are building carrier in IT, because I like development, God it’s Awesome…
             </p>
           </article>
         </div>
@@ -53,12 +58,12 @@
         </div>
         <figure>
           <blockquote cite="https://stars-inc.github.io/rsschool-cv/cv">
-            <p>
-              step by step addiction to JavaScript ahead
+            <p class="quote-text">
+              step by step addiction to JavaScript ahead...
             </p>
-            <figcaption>
+            <p class="quote-cite">
               stars-inc <cite>&#174;stars-inc</cite>
-            </figcaption>
+            </p>
           </blockquote>
         </figure>
       </section>
@@ -68,16 +73,14 @@
             Skills
           </h3>
         </div>
-        <nav class="skills-navigation">
-          <ul class="skils-list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS es5 - es6+</li>
-            <li>TypeScript</li>
-            <li>React</li>
-            <li>Git</li>
-          </ul>
-        </nav>
+        <ul class="skills-list">
+          <li class="skills-item">HTML</li>
+          <li class="skills-item">CSS</li>
+          <li class="skills-item">JS es5 - es6+</li>
+          <li class="skills-item">TypeScript</li>
+          <li class="skills-item">React</li>
+          <li class="skills-item">Git</li>
+        </ul>
       </section>
       <section class="example">
         <div class="exaple-header">
@@ -86,15 +89,15 @@
           </h3>
         </div>
         <div class="example-code">
-          <code>
-            const user = {
-              name: 'Alex',
-              age: 32,
-              links: {
-                  ['github.com/stars-inc', 'vk.com/sounrow', 'instagram.com/elitemorning/']
+          <pre>
+            <code>
+              <span class="keyword">const</span> hello = name => {
+                <span class="keyword">return</span> `<span class="string">hello,</span> ${name}`
               }
-            }
-          </code>
+
+              hello(<span class="string">'Alex'</span>)
+            </code>
+          </pre>
         </div>
       </section>
       <section class="experience">
@@ -119,16 +122,16 @@
       </section>
       <section class="language">
         <div class="language-header">
-          <h3 class="language-title">Language skills</h3>
+          <h3 class="language-title">Language</h3>
         </div>
-        <ul>
-          <li>English(A2)</li>
-        </ul>
+        <div>
+          English(A2)
+        </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div>
-        <a href="https://github.com/stars-inc" target="a_blank">&#174;stars-inc</a>
+        <a href="https://github.com/stars-inc" target="_blank">&#174;stars-inc</a>
       </div>
     </footer>
   </div>

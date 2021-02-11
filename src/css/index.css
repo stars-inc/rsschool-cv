@@ -123,18 +123,6 @@ body {
   font-size: 1.4em;
 }
 
-.about-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 .about-description {
   padding: 1em;
   font-style: italic;
@@ -145,6 +133,14 @@ body {
   width: 100%;
   -webkit-filter: grayscale(100);
           filter: grayscale(100);
+}
+
+@media screen and (min-width: 765px) {
+  .about-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .quote {

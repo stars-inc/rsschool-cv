@@ -222,4 +222,9 @@ code {
   text-align: center;
   background: rgba(0, 0, 0, 0.3);
 }
+
+.footer-link {
+  font-size: 1.3em;
+  color: #6f9eaf;
+}
 /*# sourceMappingURL=index.css.map */

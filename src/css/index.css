@@ -65,10 +65,6 @@ body {
   }
 }
 
-.header {
-  padding: 1em 0 1em 0;
-}
-
 .header-main {
   padding: 1em;
   background: rgba(0, 0, 0, 0.3);

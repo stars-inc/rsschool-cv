@@ -223,8 +223,33 @@ code {
   background: rgba(0, 0, 0, 0.3);
 }
 
+.footer-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .footer-link {
   font-size: 1.3em;
+  color: #6f9eaf;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.footer-link:hover {
+  color: #4c90a8;
+}
+
+.rss-logo {
+  fill: #333;
+}
+
+.since {
   color: #6f9eaf;
 }
 /*# sourceMappingURL=index.css.map */

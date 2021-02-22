@@ -1,20 +1,28 @@
 .footer
+  width: 100%
   padding: 1em
   text-align: center
   background: rgba(0, 0, 0, .3)
   &-wrap
     display: flex
-    justify-content: space-around
-    align-items: center
+    flex-direction: column  
   &-link
+    margin: 1em 0 0 0
     font-size: 1.3em
     color: #6f9eaf
     transition: .4s
     &:hover
       color: #4c90a8
 
-.rss-logo
-  fill: #333
+.logo
+  display: block
+  width: 100%
 
 .since
   color: #6f9eaf
+
+@media screen and ( min-width: 765px )
+  .footer-wrap
+    justify-content: space-around
+    align-items: center
+    flex-direction: row 

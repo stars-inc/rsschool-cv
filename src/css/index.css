@@ -94,6 +94,11 @@ body {
   color: #645a96;
 }
 
+.label {
+  display: block;
+  padding: .5em;
+}
+
 .about {
   background-color: #30475e;
 }

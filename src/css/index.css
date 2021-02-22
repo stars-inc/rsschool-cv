@@ -19,21 +19,6 @@ ul {
   list-style: none;
 }
 
-li {
-  position: relative;
-}
-
-li::before {
-  position: absolute;
-  display: block;
-  margin: 0 0 0 -20px;
-  content: "";
-  width: 10px;
-  height: 2px;
-  top: 50%;
-  background-color: #fff;
-}
-
 @font-face {
   font-family: OpenSans, sans-serif;
   src: url("../../fonts/OpenSans-Bold.woff2") format("woff2");
@@ -83,10 +68,17 @@ body {
   font-size: 1.5em;
 }
 
-.contacts-wrapper {
+.contacts-list {
+  list-style: none;
+}
+
+.contacts-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .link {
@@ -100,18 +92,6 @@ body {
 
 .link:hover {
   color: #645a96;
-}
-
-.label {
-  display: block;
-  margin: .1em .5em 0 0;
-  padding: .1em;
-  font-size: 1em;
-  font-weight: 900;
-  text-align: center;
-  color: #312c51;
-  background-color: #cfdac8;
-  border-radius: 30%;
 }
 
 .about {
@@ -175,6 +155,21 @@ body {
   font-family: 'Verdana', sans-serif;
 }
 
+.skills-item {
+  position: relative;
+}
+
+.skills-item::before {
+  position: absolute;
+  display: block;
+  margin: 0 0 0 -20px;
+  content: "";
+  width: 10px;
+  height: 2px;
+  top: 50%;
+  background-color: #fff;
+}
+
 .example {
   padding: 0 1em 0 1em;
 }
@@ -214,6 +209,7 @@ code {
 }
 
 .footer {
+  width: 100%;
   padding: 1em;
   text-align: center;
   background: rgba(0, 0, 0, 0.3);
@@ -223,14 +219,14 @@ code {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .footer-link {
+  margin: 1em 0 0 0;
   font-size: 1.3em;
   color: #6f9eaf;
   -webkit-transition: .4s;
@@ -241,11 +237,26 @@ code {
   color: #4c90a8;
 }
 
-.rss-logo {
-  fill: #333;
+.logo {
+  display: block;
+  width: 100%;
 }
 
 .since {
   color: #6f9eaf;
+}
+
+@media screen and (min-width: 765px) {
+  .footer-wrap {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 /*# sourceMappingURL=index.css.map */
